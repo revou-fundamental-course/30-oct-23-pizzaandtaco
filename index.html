@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator BMI</title>
+    <link rel="stylesheet" href="css/style.css">
+    <h2>Berat Badan Mempunyai Maknanya Masing-Masing. Ada Yang Berjuang Untuk Menaikkan Berat Badan Dan Ada Pula Yang Berusaha Menurunkan Berat Badan</h2>
+    <h2>Ayo Hitung Berat Badan Dirimu !!!</h2>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Kalkulator BMI</h1>
+        <form id="bmiForm">
+            <label for="weight">Berat (kg):</label>
+            <input type="number" id="weight" required><br>
+            <label for="height">Tinggi (cm):</label>
+            <input type="number" id="height" required><br>
+            <label for="gender">Jenis Kelamin:</label>
+            <select id="gender" required>
+                <option value="male">Laki-Laki</option>
+                <option value="female">Wanita</option>
+            </select><br>
+            <button type="submit">Hitung BMI</button>
+        </form>
+        <div id="result"></div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
